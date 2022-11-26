@@ -5,7 +5,7 @@ const Container = styled.div`
   display: flex;
   width: 100%;
   padding-top: 10vh;
-  min-height: 100vh;
+  min-height: 60vh;
   justify-content: center;
   background-color: #b15247;
 `;
