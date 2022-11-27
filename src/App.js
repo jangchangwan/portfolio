@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 // Page
 import About from "./pages/About";
 import Archiving from "./pages/Archiving";
-import Career from "./pages/Career";
+// import Career from "./pages/Career";
 import Intro from "./pages/Intro";
 import Project from "./pages/Projects";
 import Skill from "./pages/Skill";
@@ -20,7 +20,7 @@ function App() {
       <Skill />
       <Archiving />
       <Project />
-      <Career />
+      {/* <Career /> */}
     </div>
   );
 }

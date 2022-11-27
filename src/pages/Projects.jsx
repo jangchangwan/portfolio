@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import Box from "@mui/material/Box";
+
+import Onsikgo from "../components/Onsikgo";
+import ChuAniOne from "../components/ChuAniOne";
+import Abuyz from "../components/AbuyZ";
 const Container = styled.div`
   display: flex;
   width: 100%;
@@ -27,9 +31,88 @@ function Project() {
           alignItems: "center",
           marginTop: "2rem",
           marginBottom: "2rem",
+          width: "100%",
         }}
       >
         <Title>Projects</Title>
+        <Box
+          sx={{
+            display: { xs: "none", lg: "flex" },
+            width: "68rem",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            margin: "2rem",
+            padding: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <Onsikgo />
+        </Box>
+        <Box
+          sx={{
+            display: { xs: "none", lg: "flex" },
+            width: "68rem",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            margin: "2rem",
+            padding: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <ChuAniOne />
+        </Box>
+        <Box
+          sx={{
+            display: { xs: "none", lg: "flex" },
+            width: "68rem",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            margin: "2rem",
+            padding: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <Abuyz />
+        </Box>
+        <Box
+          sx={{
+            display: { xs: "flex", lg: "none" },
+            width: "80%",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            padding: "2rem",
+            marginBottom: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <Onsikgo />
+        </Box>
+        <Box
+          sx={{
+            display: { xs: "flex", lg: "none" },
+            width: "80%",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            padding: "2rem",
+            marginBottom: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <ChuAniOne />
+        </Box>
+        <Box
+          sx={{
+            display: { xs: "flex", lg: "none" },
+            width: "80%",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            padding: "2rem",
+            marginBottom: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <Abuyz />
+        </Box>
       </Box>
     </Container>
   );

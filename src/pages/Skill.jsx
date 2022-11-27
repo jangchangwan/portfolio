@@ -89,7 +89,7 @@ function Skill() {
           width: "100%",
         }}
       >
-        <Title>Skill</Title>
+        <Title>Skills</Title>
         <Grid
           container
           sx={{

@@ -22,6 +22,7 @@ const NavContainer = styled.div`
   background-color: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  z-index: 999;
 `;
 
 const NavBox = styled.div`
@@ -96,9 +97,9 @@ function Navbar() {
           <Link to="projects" spy={true} smooth={true} offset={-78}>
             <NavContent>Projects</NavContent>
           </Link>
-          <Link to="career" spy={true} smooth={true} offset={-78}>
+          {/* <Link to="career" spy={true} smooth={true} offset={-78}>
             <NavContent>Career</NavContent>
-          </Link>
+          </Link> */}
         </NavBox>
       </LargeAppBar>
       <MiddleAppBar sx={{ display: { xs: "none", md: "flex", xl: "none" } }}>
@@ -120,9 +121,9 @@ function Navbar() {
           <Link to="projects" spy={true} smooth={true} offset={-78}>
             <NavContent>Projects</NavContent>
           </Link>
-          <Link to="career" spy={true} smooth={true} offset={-78}>
+          {/* <Link to="career" spy={true} smooth={true} offset={-78}>
             <NavContent>Career</NavContent>
-          </Link>
+          </Link> */}
         </NavBox>
       </MiddleAppBar>
       <SmallAppBar sx={{ display: { xs: "flex", md: "none", xl: "none" } }}>
