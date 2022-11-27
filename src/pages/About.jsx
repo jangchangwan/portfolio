@@ -9,6 +9,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import StayCurrentPortraitIcon from "@mui/icons-material/StayCurrentPortrait";
 import CreateIcon from "@mui/icons-material/Create";
 import Grid from "@mui/material/Grid";
+
 const Container = styled.div`
   display: flex;
   width: 100%;
@@ -22,7 +23,6 @@ const Title = styled.div`
   font-size: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  text-decoration: underline;
 `;
 
 const ItemGrid = styled(Grid)`
@@ -48,6 +48,7 @@ const TitleTag = styled.p`
 const ContentTag = styled.p`
   padding-bottom: 0.3rem;
 `;
+
 function About() {
   return (
     <Container id="about">
@@ -57,6 +58,8 @@ function About() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
+          marginTop: "2rem",
+          marginBottom: "2rem",
         }}
       >
         <Title>About me</Title>
