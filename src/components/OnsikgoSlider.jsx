@@ -22,6 +22,7 @@ const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 27%;
 `;
 export default class OnsikgoSlider extends Component {
   render() {
@@ -31,6 +32,8 @@ export default class OnsikgoSlider extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 5000,
     };
     return (
       <div>
