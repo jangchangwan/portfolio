@@ -60,8 +60,21 @@ function ChuAniOne() {
         2022.08 ~ 2022.09 ( 6인 팀프로젝트, <Mojor>프로젝트 우수상</Mojor> )
       </p>
       <Grid container sx={{ marginTop: "2rem" }}>
-        <Grid item xs={12} sm={12} md={6}>
-          <div style={{ width: "90%", marginBottom: "3rem" }}>
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={6}
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{ width: "90%", marginTop: "1rem", marginBottom: "3rem" }}
+          >
             <ChuAniOneSlider />
           </div>
         </Grid>

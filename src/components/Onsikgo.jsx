@@ -60,8 +60,21 @@ function Onsikgo() {
         2022.07 ~ 2022.08 ( 6인 팀프로젝트, <Mojor>프로젝트 우수상</Mojor> )
       </p>
       <Grid container sx={{ marginTop: "2rem", width: "100%" }}>
-        <Grid item xs={12} sm={12} md={6} sx={{ width: "50%" }}>
-          <OnsikgoSlider />
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={6}
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div style={{ width: "90%" }}>
+            <OnsikgoSlider />
+          </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
           <Content>

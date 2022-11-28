@@ -12,9 +12,10 @@ import Image5 from "../images/onsikgo/media-5.gif";
 import Image6 from "../images/onsikgo/media-6.gif";
 
 const Image = styled.img`
-  height: 35rem;
-  width: 15rem;
+  height: 30rem;
+  width: auto;
   object-fit: cover;
+  margin: 0;
 `;
 
 const Box = styled.div`
