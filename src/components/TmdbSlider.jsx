@@ -4,27 +4,23 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Image1 from "../images/onsikgo/media-1.gif";
-import Image2 from "../images/onsikgo/media-2.gif";
-import Image3 from "../images/onsikgo/media-3.gif";
-import Image4 from "../images/onsikgo/media-4.gif";
-import Image5 from "../images/onsikgo/media-5.gif";
-import Image6 from "../images/onsikgo/media-6.gif";
-
+import Image1 from "../images/tmdb/media-1.png";
+import Image2 from "../images/tmdb/media-2.png";
+import Image3 from "../images/tmdb/media-3.png";
+import Image4 from "../images/tmdb/media-4.png";
+import Image5 from "../images/tmdb/media-5.png";
 const Image = styled.img`
-  height: 30rem;
-  width: auto;
+  width: 100%;
   object-fit: cover;
-  margin: 0;
 `;
 
 const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 28%;
 `;
-export default class OnsikgoSlider extends Component {
+
+export default class TmdbSlider extends Component {
   render() {
     const settings = {
       dots: true,
@@ -52,9 +48,6 @@ export default class OnsikgoSlider extends Component {
           </Box>
           <Box>
             <Image src={Image5} />
-          </Box>
-          <Box>
-            <Image src={Image6} />
           </Box>
         </Slider>
       </div>

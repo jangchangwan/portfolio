@@ -4,27 +4,18 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Image1 from "../images/onsikgo/media-1.gif";
-import Image2 from "../images/onsikgo/media-2.gif";
-import Image3 from "../images/onsikgo/media-3.gif";
-import Image4 from "../images/onsikgo/media-4.gif";
-import Image5 from "../images/onsikgo/media-5.gif";
-import Image6 from "../images/onsikgo/media-6.gif";
-
 const Image = styled.img`
-  height: 30rem;
-  width: auto;
+  width: 100%;
   object-fit: cover;
-  margin: 0;
 `;
 
 const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 28%;
 `;
-export default class OnsikgoSlider extends Component {
+
+export default class ChuAniOneSlider extends Component {
   render() {
     const settings = {
       dots: true,
@@ -39,22 +30,13 @@ export default class OnsikgoSlider extends Component {
       <div>
         <Slider {...settings}>
           <Box>
-            <Image src={Image1} />
+            <Image src="1" />
           </Box>
           <Box>
-            <Image src={Image2} />
+            <Image src="2" />
           </Box>
           <Box>
-            <Image src={Image3} />
-          </Box>
-          <Box>
-            <Image src={Image4} />
-          </Box>
-          <Box>
-            <Image src={Image5} />
-          </Box>
-          <Box>
-            <Image src={Image6} />
+            <Image src="3" />
           </Box>
         </Slider>
       </div>

@@ -5,6 +5,8 @@ import Box from "@mui/material/Box";
 import Onsikgo from "../components/Onsikgo";
 import ChuAniOne from "../components/ChuAniOne";
 import Abuyz from "../components/AbuyZ";
+import Tmdb from "../components/Tmdb";
+import AllGetMoney from "../components/AllGetMoney";
 const Container = styled.div`
   display: flex;
   width: 100%;
@@ -35,32 +37,7 @@ function Project() {
         }}
       >
         <Title>Projects</Title>
-        <Box
-          sx={{
-            display: { xs: "none", lg: "flex" },
-            width: "68rem",
-            backgroundColor: "white",
-            borderRadius: "1rem",
-            margin: "2rem",
-            padding: "2rem",
-            justifyContent: "center",
-          }}
-        >
-          <Onsikgo />
-        </Box>
-        <Box
-          sx={{
-            display: { xs: "none", lg: "flex" },
-            width: "68rem",
-            backgroundColor: "white",
-            borderRadius: "1rem",
-            margin: "2rem",
-            padding: "2rem",
-            justifyContent: "center",
-          }}
-        >
-          <ChuAniOne />
-        </Box>
+        {/* AbuyZ */}
         <Box
           sx={{
             display: { xs: "none", lg: "flex" },
@@ -85,16 +62,17 @@ function Project() {
             justifyContent: "center",
           }}
         >
-          <Onsikgo />
+          <Abuyz />
         </Box>
+        {/* ChuAniOne */}
         <Box
           sx={{
-            display: { xs: "flex", lg: "none" },
-            width: "80%",
+            display: { xs: "none", lg: "flex" },
+            width: "68rem",
             backgroundColor: "white",
             borderRadius: "1rem",
+            margin: "2rem",
             padding: "2rem",
-            marginBottom: "2rem",
             justifyContent: "center",
           }}
         >
@@ -111,7 +89,88 @@ function Project() {
             justifyContent: "center",
           }}
         >
-          <Abuyz />
+          <ChuAniOne />
+        </Box>
+        {/* Onsikgo */}
+        <Box
+          sx={{
+            display: { xs: "none", lg: "flex" },
+            width: "68rem",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            margin: "2rem",
+            padding: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <Onsikgo />
+        </Box>
+        <Box
+          sx={{
+            display: { xs: "flex", lg: "none" },
+            width: "80%",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            padding: "2rem",
+            marginBottom: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <Onsikgo />
+        </Box>
+        {/* TMDB를 활용한 영화추천사이트 */}
+        <Box
+          sx={{
+            display: { xs: "none", lg: "flex" },
+            width: "68rem",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            margin: "2rem",
+            padding: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <Tmdb />
+        </Box>
+        <Box
+          sx={{
+            display: { xs: "flex", lg: "none" },
+            width: "80%",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            padding: "2rem",
+            marginBottom: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <Tmdb />
+        </Box>
+        {/* AllGetMoney */}
+        <Box
+          sx={{
+            display: { xs: "none", lg: "flex" },
+            width: "68rem",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            margin: "2rem",
+            padding: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <AllGetMoney />
+        </Box>
+        <Box
+          sx={{
+            display: { xs: "flex", lg: "none" },
+            width: "80%",
+            backgroundColor: "white",
+            borderRadius: "1rem",
+            padding: "2rem",
+            marginBottom: "2rem",
+            justifyContent: "center",
+          }}
+        >
+          <AllGetMoney />
         </Box>
       </Box>
     </Container>

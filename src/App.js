@@ -10,7 +10,7 @@ import Archiving from "./pages/Archiving";
 import Intro from "./pages/Intro";
 import Project from "./pages/Projects";
 import Skill from "./pages/Skill";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,7 @@ function App() {
       <Archiving />
       <Project />
       {/* <Career /> */}
+      <Footer />
     </div>
   );
 }
