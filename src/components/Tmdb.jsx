@@ -77,6 +77,10 @@ function Tmdb() {
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>프로젝트 주제</ContentTag>
+          </ContentBox>
           <Content>
             <Mojor>
               TMDB API를 활용하여 데이터을 정제한 후 데이터 기반 영화를
@@ -84,20 +88,15 @@ function Tmdb() {
             </Mojor>
             입니다.
           </Content>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>기획 의도</ContentTag>
+          </ContentBox>
           <Content>
-            코사인 유사도를 접목 시켜 장르 & 컨텐츠 기반 사용자가 좋아요 한
-            영화를 토대로 영화를 추천해줬으며, <Important>Django</Important>를
-            사용하여 <Important>MTV 패턴</Important> 백엔드를 구축할 수 있는
-            좋은 경험이였습니다.
-          </Content>
-          <Content>
-            Front-End의 대표적인 프레임워크인 <Important>Vue</Important>의
-            전반적인 개념과 <Important>Vuex</Important> 라는 상태관리
-            라이브러리의 개념을 이해하고 실제로 사용할수 있는 좋은 경험이
-            되었습니다.
+            일주일이라는 짧은시간 동안 외부 API를 통해 데이터를 수집하고, Front,
+            Back을 구분지어 구축하고, CRUD를 만들어 보기 위한 프로젝트 입니다.
           </Content>
 
-          <hr />
           <ContentBox>
             <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
             <ContentTag>주요기능</ContentTag>
@@ -118,19 +117,25 @@ function Tmdb() {
           </ContentBox>
           <ContentBox>
             <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>FrontEnd</ContentTag>
-            <ContentTag2>Vue, Vuex, javaScript</ContentTag2>
+            <ContentTag>사용기술</ContentTag>
+            <ContentTag2>Vue, Vuex, javaScript, Django, Python</ContentTag2>
           </ContentBox>
-          <ContentBox>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
             <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>BackEnd</ContentTag>
-            <ContentTag2>Django, Python</ContentTag2>
+            <ContentTag>배운 점</ContentTag>
           </ContentBox>
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>DataBase</ContentTag>
-            <ContentTag2>SQLite</ContentTag2>
-          </ContentBox>
+          <Content>
+            코사인 유사도를 접목 시켜 장르 & 컨텐츠 기반 사용자가 좋아요 한
+            영화를 토대로 영화를 추천해줬으며, <Important>Django</Important>를
+            사용하여 <Important>MTV 패턴</Important> 백엔드를 구축할 수 있는
+            좋은 경험이였습니다.
+          </Content>
+          <Content>
+            Front-End의 대표적인 프레임워크인 <Important>Vue</Important>의
+            전반적인 개념과 <Important>Vuex</Important> 라는 상태관리
+            라이브러리의 개념을 이해하고 실제로 사용할수 있는 좋은 경험이
+            되었습니다.
+          </Content>
         </Grid>
       </Grid>
     </Container>

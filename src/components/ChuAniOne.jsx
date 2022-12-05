@@ -79,13 +79,68 @@ function ChuAniOne() {
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>프로젝트 주제</ContentTag>
+          </ContentBox>
           <Content>
             <Mojor>
-              "츄애니원"은 유저들의 선호도를 기반으로 잠재요인의 값을 구하여
-              각각의 유저에게 애니메이션을 맞춤형으로 제공하는 서비스
+              유저들의 선호도를 기반으로 잠재요인의 값을 구하여 각각의 유저에게
+              애니메이션을 맞춤형으로 제공하는 서비스
             </Mojor>
-            이다.
           </Content>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>기획 의도</ContentTag>
+          </ContentBox>
+          <Content>
+            빅데이터를 기반 추천서비스를 구현하고 싶었고, 팀원 대부분이 흥미를
+            가지고 있는 "애니"라는 테마에 리뷰 데이터도 충분히 많았기에 완성도
+            높은 프로젝트를 할 수 있다고 생각하여 시작하였습니다.
+          </Content>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>담당 업무</ContentTag>
+          </ContentBox>
+          <ContentBox style={{ margin: 0 }}>
+            <ContentTag>Account</ContentTag>
+            <ContentTag2 style={{ width: "80%" }}>
+              회원가입, 로그인, 로그아웃, 회원수정, 마이페이지, 뱃지 & 도전과제
+            </ContentTag2>
+          </ContentBox>
+          <ContentBox style={{ margin: 0 }}>
+            <ContentTag>BigVoca</ContentTag>
+            <ContentTag2>
+              애니 추천 단어장 조회, 추가, 삭제, TTS 기능 구현
+            </ContentTag2>
+          </ContentBox>
+          <ContentBox style={{ margin: 0 }}>
+            <ContentTag>etc</ContentTag>
+            <ContentTag2>네비게이션, 소개페이지, 404 페이지</ContentTag2>
+          </ContentBox>
+
+          <ContentBox>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>Github</ContentTag>
+            <ContentTag2
+              onClick={goGithub}
+              style={{ cursor: "pointer", color: "blue" }}
+            >
+              https://github.com/jangchangwan/ChuAniOne
+            </ContentTag2>
+          </ContentBox>
+          <ContentBox>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>사용 기술</ContentTag>
+            <ContentTag2>
+              React, Redux, TypeScript, soket.io, styled-component,
+              framer-motion, MUI
+            </ContentTag2>
+          </ContentBox>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>배운 점</ContentTag>
+          </ContentBox>
           <Content>
             <Important>TypeScript</Important>를 통해 함수와 변수에 타입을
             정의하여 에러를 미연을 방지하여 개발속도를 한단계 빠르게 진행할 수
@@ -102,50 +157,6 @@ function ChuAniOne() {
             <Important> Socket.io</Important>를 통해 실시간 통신을 구현해볼 수
             있었습니다.
           </Content>
-          <hr />
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>주요기능</ContentTag>
-            <ContentTag2>
-              애니메이션 추천, 오픈채팅, 일본어 단어 학습장, 애니메이션 정보 및
-              리뷰, 톡톡을 통한 소통, 뱃지와 도전과제
-            </ContentTag2>
-          </ContentBox>
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>Github</ContentTag>
-            <ContentTag2
-              onClick={goGithub}
-              style={{ cursor: "pointer", color: "blue" }}
-            >
-              https://github.com/jangchangwan/ChuAniOne
-            </ContentTag2>
-          </ContentBox>
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>FrontEnd</ContentTag>
-            <ContentTag2>
-              React, Redux, TypeScript, soket.io, styled-component,
-              framer-motion, MUI
-            </ContentTag2>
-          </ContentBox>
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>BackEnd</ContentTag>
-            <ContentTag2>Django, SpringBoot</ContentTag2>
-          </ContentBox>
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>DataBase</ContentTag>
-            <ContentTag2>MySQL, Redis</ContentTag2>
-          </ContentBox>
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>BigData</ContentTag>
-            <ContentTag2>
-              keras, numpy, pandas, scikit-learn, tensorflow, MongoDB
-            </ContentTag2>
-          </ContentBox>
         </Grid>
       </Grid>
     </Container>

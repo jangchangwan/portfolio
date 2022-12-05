@@ -79,38 +79,32 @@ function Abuyz() {
           </div>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>프로젝트 주제</ContentTag>
+          </ContentBox>
           <Content>
-            <Mojor>
-              AbuyZ 는 판매자, 소비자가 모두 사용할 수 있는 플랫폼입니다.
-            </Mojor>
+            <Mojor>판매자, 소비자가 모두 사용할 수 있는 쇼핑몰 플랫폼</Mojor>
           </Content>
-          <Content>
-            유통 도메인에 대한 지식을 만들고자 쇼핑몰 플랫폼을 만들기
-            시작했습니다. 더군다나 40:1의 경쟁률을 뚫고 실제 유통 사업을
-            진행하고 있는 롯데정보통신과 함께 SI 프로젝트를 진행했습니다.
-            6주만에 만들어진 쇼핑몰 플랫폼. 어떤 것을 구매하고 싶으신가요? 혹은
-            어떤 상품을 판매하고 싶으신가요? AbuyZ와 함께 재밌는 쇼핑을
-            시작하세요.
-          </Content>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
+            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
+            <ContentTag>기획 의도</ContentTag>
+          </ContentBox>
 
           <Content>
-            React의 대표적인 프레임워크인 <Important>Next.js</Important>의
-            전반적인 개념과 <Important>SSR, CSR, SSG</Important>차이와 개념에
-            대해서 숙지할 수 있었습니다.
+            기업연게 프로젝트인 만큼 현업과 유사한 쇼핑몰 플랫폼 구축 경험과
+            쇼핑몰 분야 도메인 지식 함양과 SI 프로젝트 실무 역량을 키우기 위해
+            만든 프로젝트입니다. 시작하세요.
           </Content>
-          <Content>
-            또한 전역 상태 라이브러리인 <Important>Recoil</Important>의 개념을
-            더 확실하게 이해할 수 있었습니다.
-          </Content>
-          <hr />
-          <ContentBox>
+
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
             <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>주요기능</ContentTag>
-            <ContentTag2>
-              <p>FO : 상품 검색, 장바구니, 리뷰 등록, 신고, 상품 구매</p>
-              <p>BO : 상품 등록, 고객관리, 전시관리, 대시보드, 데이터 시각화</p>
-            </ContentTag2>
+            <ContentTag>담당 업무</ContentTag>
           </ContentBox>
+          <Content>
+            <p>FO : 상품 검색, 장바구니, 상품 구매 및 결제, 제품 상세 페이지</p>
+            <p>BO : 대시보드, 고객관리, 차트를 통한 데이터 시각화</p>
+          </Content>
           <ContentBox>
             <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
             <ContentTag>Github</ContentTag>
@@ -121,26 +115,24 @@ function Abuyz() {
               https://github.com/jangchangwan/AbuyZ
             </ContentTag2>
           </ContentBox>
-          <ContentBox>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
             <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>FrontEnd</ContentTag>
+            <ContentTag>사용 기술</ContentTag>
             <ContentTag2>Next.js, Recoil, Chart.js, JavaScript</ContentTag2>
           </ContentBox>
-          <ContentBox>
+          <ContentBox style={{ paddingBottom: "0.5rem" }}>
             <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>BackEnd</ContentTag>
-            <ContentTag2>SpringBoot, Gradle</ContentTag2>
+            <ContentTag>배운 점</ContentTag>
           </ContentBox>
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>DataBase</ContentTag>
-            <ContentTag2>MySQL, Redis</ContentTag2>
-          </ContentBox>
-          <ContentBox>
-            <DoneOutlineIcon sx={{ marginRight: "0.5rem" }} />
-            <ContentTag>Server</ContentTag>
-            <ContentTag2>Docker, Jenkins, Amazon EC2, Amazon S3</ContentTag2>
-          </ContentBox>
+          <Content>
+            React의 대표적인 프레임워크인 <Important>Next.js</Important>의
+            전반적인 개념과 <Important>SSR, CSR, SSG</Important>차이와 개념에
+            대해서 숙지할 수 있었습니다.
+          </Content>
+          <Content>
+            또한 전역 상태 라이브러리인 <Important>Recoil</Important>의 개념을
+            더 확실하게 이해할 수 있었습니다.
+          </Content>
         </Grid>
       </Grid>
     </Container>

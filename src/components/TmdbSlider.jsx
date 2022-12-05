@@ -18,6 +18,7 @@ const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
 `;
 
 export default class TmdbSlider extends Component {
@@ -28,8 +29,6 @@ export default class TmdbSlider extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 5000,
     };
     return (
       <div>

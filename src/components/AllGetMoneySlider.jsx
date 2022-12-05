@@ -20,6 +20,7 @@ const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
 `;
 
 export default class AllGetMoneySlider extends Component {
