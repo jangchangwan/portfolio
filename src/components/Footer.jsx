@@ -25,8 +25,8 @@ function Career() {
         }}
       >
         <div style={{ fontWeight: "bold" }}>
-          천재는 노력하는 자를 이기지 없고, 노력하는 자는 즐기는 자을 이기지
-          없다.
+          천재는 노력하는 자를 이기지 못하고, 노력하는 자는 즐기는 자을 이기지
+          못한다.
         </div>
       </Box>
     </Container>
